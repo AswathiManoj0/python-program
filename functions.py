@@ -1,0 +1,11 @@
+my_list=[]
+print("the list is empty",my_list)
+my_list.append("a")
+my_list.append("b")
+print("the list is",my_list)
+my_list.remove("b")
+print("the list is",my_list)
+my_list.insert(0,"c")
+print("the list is",my_list)
+list_len=len(my_list)
+print("the length is",list_len)
